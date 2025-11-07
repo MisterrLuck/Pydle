@@ -7,6 +7,10 @@ class Pydle:
         self.max_guesses = 6
         self.guesses = 0
     
+    def from_word_list(self):
+        with open("wordlist.txt", "r") as file:
+            file.readlines
+
     def reset(self):
         self.random_word()
         self.guesses = 0
